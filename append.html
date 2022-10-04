@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+    </head>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p>appends a new element to an array.</p>
+
+<button onclick="myFunction()">Add</button>
+
+<p id="demo"></p>
+
+<script>
+const names = ["panda", "lakshmi", "priya"];
+document.getElementById("demo").innerHTML = names;
+
+function myFunction() {
+  names.push("Lp");
+  document.getElementById("demo").innerHTML = names;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+    </head><body>
+
+    <h2>JavaScript Arrays</h2>
+    
+    <p> loop through an array </p>
+    
+    <p id="demo"></p>
+    
+    <script>
+    const names = ["Priya", "Lakshmi", "Panda", "Lp"];
+    let fLen = names.length;
+    
+    let text = "<ul>";
+    for (let i = 0; i < fLen; i++) {
+      text += "<li>" + names[i] + "</li>";
+    }
+    text += "</ul>";
+    
+    document.getElementById("demo").innerHTML = text;
+    </script>
+    
+    </body>
+    </html>
